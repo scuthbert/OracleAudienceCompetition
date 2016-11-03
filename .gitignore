@@ -20,10 +20,14 @@ lib64/
 parts/
 sdist/
 var/
-data/
+data/train
+data/val
 *.egg-info/
 .installed.cfg
 *.egg
+oracle.model
+oracle.cache
+predictions.txt
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -78,6 +82,7 @@ celerybeat-schedule
 
 # dotenv
 .env
+.swp
 
 # virtualenv
 venv/
